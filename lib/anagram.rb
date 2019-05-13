@@ -15,11 +15,7 @@ class Anagram
         matches << word
       end
     end
-      if matches.length > 0
-          return matches
-      else
-          return empty_array
-      end
+      return matches
   end  
 
 
