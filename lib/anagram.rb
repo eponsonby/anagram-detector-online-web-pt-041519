@@ -11,7 +11,6 @@ class Anagram
     split_and_sorted_instance_variable = @word.split("").sort
     array_of_words.each_with_index do |word, index|
       if split_and_sorted_instance_variable == word.split("").sort
-       binding.pry
         return array_of_words.delete_if{|word| word != array_of_words[index]}
       else
         return empty_array
