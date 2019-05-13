@@ -16,7 +16,7 @@ class Anagram
       end
     end
       if matches.length > 0
-          return new_matches
+          return matches
       else
           return empty_array
       end
