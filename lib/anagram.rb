@@ -17,13 +17,6 @@ class Anagram
       return empty_array
     end
   end
-    
-    # split the word array into an array of letters
-    #sort the letters
-    #split @word into letters
-    #sort @words letters
-    #compare the two arrays of sorted words
-    # if the two words match, retun the original word
-    # from array of words
+
 
 end
