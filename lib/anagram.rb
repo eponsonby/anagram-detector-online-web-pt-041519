@@ -16,7 +16,6 @@ class Anagram
     end
       return empty_array
     end
-  end
 
 
 end
