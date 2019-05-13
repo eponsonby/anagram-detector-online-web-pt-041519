@@ -12,7 +12,7 @@ class Anagram
     split_and_sorted_instance_variable = @word.split("").sort
     array_of_words.each_with_index do |word, index|
       if split_and_sorted_instance_variable == word.split("").sort
-        new_matches << array_of_words.delete_if{|word| word != array_of_words[index]}
+        new_matches << word
       end
     end
       if new_matches.length > 0
