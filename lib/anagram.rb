@@ -8,11 +8,11 @@ class Anagram
   
   def match(array_of_words)
     empty_array = []
-    new_matches = []
+    matches = []
     split_and_sorted_instance_variable = @word.split("").sort
     array_of_words.each_with_index do |word, index|
       if split_and_sorted_instance_variable == word.split("").sort
-        new_matches << word
+        matches << word
       end
     end
       if new_matches.length > 0
