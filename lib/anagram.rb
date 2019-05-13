@@ -21,7 +21,7 @@ class Anagram
           return empty_array
       end
   end  
-end
+
 
 
 end
